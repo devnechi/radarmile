@@ -762,6 +762,7 @@
                                             <i class="far fa-bell pe-3"></i> How does back pricing work?
                                         </button>
                                     </h5>
+
                                     <div id="collapse-1" class="accordioncollapse collapse show" aria-labelledby="faq-1" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Dramatically formulate cross-unit products with web-enabled
