@@ -13,12 +13,26 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
+        Schema::create('fbcuserstbl', function (Blueprint $table) {
+            $table->increments('user_id');
+            $table->string('fname');
+            $table->string('mname');
+            $table->string('lname');
+            $table->string('dob');
+            $table->string('gender_id')->nullable();
+            $table->string('martialstatus');
+            $table->integer('role_id');
+            $table->string('job_title');
+            $table->string('job_desc');
+            $table->string('phonenumber');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('user_photo_id');
+            $table->string('user_contract_id');
+            $table->integer('status_id')->nullable();
+            $table->integer('created_by');
+            $table->string('last_active');
+            $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
@@ -31,6 +45,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('fbcuserstbl');
     }
 }

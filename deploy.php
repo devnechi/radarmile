@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/laravel.php';
 
 // Project name
-set('application', 'RadarMile');
+set('application', 'Radarmile');
 
 // Project repository
 set('repository', 'https://github.com/devnechi/radarmile.git');
@@ -23,6 +23,7 @@ add('writable_dirs', []);
 // Hosts
 
 host('radarmile.com')
+->user('deployer')
 ->identityFile('~/.ssh/deployerkey')
 ->set('deploy_path', '/var/www/radarmile.com/public_html/rd/');
 // Tasks

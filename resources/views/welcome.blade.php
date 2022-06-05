@@ -76,245 +76,14 @@
                     <div class="clearfix"></div>
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Home
-                                </a>
-                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                    <div class="dropdown-grid rounded-custom width-half">
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">Different Home</h6>
-                                            <a href="index.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Saas Company 1</div>
-                                                    <p>It's for <strong>SaaS Software</strong> Company</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-2.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Saas Company 2</div>
-                                                    <p>Modern <strong>Saas agency</strong></p>
-                                                </div>
-                                            </a>
-                                            <a href="index-3.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Desktop App</div>
-                                                    <p><strong>Web Software</strong> Company</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-4.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">App Landing</div>
-                                                    <p>App and <strong>Software</strong> Landing</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-5.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Software Application</div>
-                                                    <p>IT solutions and <strong>SaaS Application</strong></p>
-                                                </div>
-                                            </a>
-
-                                            <a href="index-6.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Startup Agency</div>
-                                                    <p>Different type of <strong>Agency</strong>&lrm;</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-7.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">Data Analysis</div>
-                                                    <p>Software & <strong>Data Analysis</strong>&lrm;</p>
-                                                </div>
-                                            </a>
-                                            <a href="index-8.html" class="dropdown-link">
-                                                <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
-                                                <div class="dropdown-info">
-                                                    <div class="drop-title">App Landing Two</div>
-                                                    <p>Software & <strong>Data Analysis</strong>&lrm;</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li><a href="services.html" class="nav-link">Services</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                    <div class="dropdown-grid rounded-custom width-full-3">
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">Reusable Section</h6>
-                                            <a href="header.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-bars"></i></span>
-                                                <div class="drop-title">Navigations</div>
-                                            </a>
-                                            <a href="hero-sections.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-browser"></i></span>
-                                                <div class="drop-title">Hero Sections</div>
-                                            </a>
-                                            <a href="testimonials.html" class="dropdown-link">
-                                                <span class="me-2" ><i class="far fa-address-card"></i></span>
-                                                <div class="drop-title">Testimonials</div>
-                                            </a>
-                                            <a href="call-to-action.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-bolt"></i></span>
-                                                <div class="drop-title">Call to Action</div>
-                                            </a>
-                                            <a href="tab-style.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-eject"></i></span>
-                                                <div class="drop-title">Tab Style</div>
-                                            </a>
-                                            <a href="services-style.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                <div class="drop-title">Services Style</div>
-                                            </a>
-                                            <a href="work-process.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-hourglass-start"></i></span>
-                                                <div class="drop-title">Work Process</div>
-                                            </a>
-                                        </div>
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">Reusable Section</h6>
-                                            <a href="pricing-style.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-usd-square"></i></span>
-                                                <div class="drop-title">Pricing Style</div>
-                                            </a>
-                                            <a href="accordions.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-th-list"></i></span>
-                                                <div class="drop-title">Accordions</div>
-                                            </a>
-                                            <a href="features.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-chart-network"></i></span>
-                                                <div class="drop-title">Features</div>
-                                            </a>
-                                            <a href="footers.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-closed-captioning"></i></span>
-                                                <div class="drop-title">Footers</div>
-                                            </a>
-
-                                            <a href="team.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-user"></i></span>
-                                                <div class="drop-title">Our Team</div>
-                                            </a>
-                                            <a href="integration-style.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-paper-plane"></i></span>
-                                                <div class="drop-title">Integration Style</div>
-                                            </a>
-                                            <a href="blog-style.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-th-large"></i></span>
-                                                <div class="drop-title">Blog Style</div>
-                                            </a>
-                                        </div>
-                                        <div class="dropdown-grid-item last-item bg-light radius-right-side">
-                                            <a href="#"><img src="img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li><a href="pricing.html" class="nav-link">Pricing</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
-                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                    <div class="dropdown-grid rounded-custom width-full">
-                                        <div class="dropdown-grid-item">
-                                            <h6 class="drop-heading">Useful Links</h6>
-                                            <a href="about-us.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-fingerprint"></i></span>
-                                                <div class="drop-title">About Us</div>
-                                            </a>
-                                            <a href="contact-us.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-address-book"></i></span>
-                                                <div class="drop-title">Contact Us</div>
-                                            </a>
-                                            <a href="services.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                <div class="drop-title">Services</div>
-                                            </a>
-                                            <a href="service-single.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-server"></i></span>
-                                                <div class="drop-title">Services Single</div>
-                                            </a>
-                                            <a href="blog.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-th-large"></i></span>
-                                                <div class="drop-title">Our Latest News</div>
-                                            </a>
-                                            <a href="blog-single.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-bars"></i></span>
-                                                <div class="drop-title">News Details</div>
-                                            </a>
-                                            <a href="career.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-graduation-cap"></i></span>
-                                                <div class="drop-title">Career</div>
-                                            </a>
-                                            <a href="career-single.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-user-graduate"></i></span>
-                                                <div class="drop-title">Career Single</div>
-                                            </a>
-                                            <a href="integrations.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-rocket-launch"></i></span>
-                                                <div class="drop-title">Integrations</div>
-                                            </a>
-                                            <a href="integration-single.html" class="dropdown-link px-0">
-                                                <span class="me-2"><i class="far fa-paper-plane"></i></span>
-                                                <div class="drop-title">Integration Single</div>
-                                            </a>
-                                        </div>
-                                        <div class="dropdown-grid-item radius-right-side bg-light">
-                                            <h6 class="drop-heading">Utility Pages</h6>
-                                            <a href="style-guide.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                <div class="drop-title">Style Guide</div>
-                                            </a>
-                                            <a href="support.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-life-ring"></i></span>
-                                                <div class="drop-title">Help Center</div>
-                                            </a>
-                                            <a href="support-single.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-headset"></i></span>
-                                                <div class="drop-title">Help Details</div>
-                                            </a>
-                                            <a href="request-demo.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-laptop-code"></i></span>
-                                                <div class="drop-title">Request for Demo</div>
-                                            </a>
-                                            <a href="login.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-sign-in"></i></span>
-                                                <div class="drop-title">User Login</div>
-                                            </a>
-                                            <a href="register.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-user-plus"></i></span>
-                                                <div class="drop-title">User SignUp</div>
-                                            </a>
-                                            <a href="password-reset.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-trash-undo"></i></span>
-                                                <div class="drop-title">Recovery Account</div>
-                                            </a>
-                                            <a href="404.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-exclamation-triangle"></i></span>
-                                                <div class="drop-title">404 Page</div>
-                                            </a>
-                                            <a href="coming-soon.html" class="dropdown-link">
-                                                <span class="me-2"><i class="far fa-clock"></i></span>
-                                                <div class="drop-title">Coming Soon</div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+                            <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                            <li><a href="{{ url('/') }}" class="nav-link">About</a></li>
                         </ul>
                     </div>
 
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Sign In</a>
-                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Documentation</a>
+                        <a href="https://www.futurebasics.co.tz/contact-us" class="btn btn-primary">Contact Us</a>
                     </div>
 
                     <!--offcanvas menu start-->
@@ -329,245 +98,13 @@
                         </div>
                         <div class="offcanvas-body">
                             <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Home
-                                    </a>
-                                    <div class=" dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                        <div class="dropdown-grid rounded-custom width-half">
-                                            <div class="dropdown-grid-item">
-                                                <h6 class="drop-heading">Different Home</h6>
-                                                <a href="index.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Saas Company 1</div>
-                                                        <p>It's for <strong>SaaS Software</strong> Company</p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-2.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Saas Company 2</div>
-                                                        <p>Modern <strong>Saas agency</strong></p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-3.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Desktop App</div>
-                                                        <p><strong>Web Software</strong> Company</p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-4.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">App Landing</div>
-                                                        <p>App and <strong>Software</strong> Landing</p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-5.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Software Application</div>
-                                                        <p>
-                                                            IT solutions and <strong>SaaS Application</strong>
-                                                        </p>
-                                                    </div>
-                                                </a>
+                                <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                                <li><a href="pricing.html" class="nav-link">About</a></li>
 
-                                                <a href="index-6.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Startup Agency</div>
-                                                        <p>Different type of <strong>Agency</strong>&lrm;</p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-7.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">Data Analysis</div>
-                                                        <p>Software & <strong>Data Analysis</strong>&lrm;</p>
-                                                    </div>
-                                                </a>
-                                                <a href="index-8.html" class="dropdown-link">
-                                                    <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
-                                                    <div class="dropdown-info">
-                                                        <div class="drop-title">App Landing Two</div>
-                                                        <p>Software & <strong>App Landing Two</strong>&lrm;</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a href="services.html" class="nav-link">Services</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                                    <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                        <div class="dropdown-grid rounded-custom width-full-3">
-                                            <div class="dropdown-grid-item">
-                                                <h6 class="drop-heading">Reusable Section</h6>
-                                                <a href="header.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-bars"></i></span>
-                                                    <div class="drop-title">Navigations</div>
-                                                </a>
-                                                <a href="hero-sections.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-browser"></i></span>
-                                                    <div class="drop-title">Hero Sections</div>
-                                                </a>
-                                                <a href="testimonials.html" class="dropdown-link">
-                                                    <span class="me-2" ><i class="far fa-address-card"></i></span>
-                                                    <div class="drop-title">Testimonials</div>
-                                                </a>
-                                                <a href="call-to-action.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-bolt"></i></span>
-                                                    <div class="drop-title">Call to Action</div>
-                                                </a>
-                                                <a href="tab-style.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-eject"></i></span>
-                                                    <div class="drop-title">Tab Style</div>
-                                                </a>
-                                                <a href="services-style.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                    <div class="drop-title">Services Style</div>
-                                                </a>
-                                                <a href="work-process.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-hourglass-start"></i></span>
-                                                    <div class="drop-title">Work Process</div>
-                                                </a>
-                                            </div>
-                                            <div class="dropdown-grid-item">
-                                                <h6 class="drop-heading">Reusable Section</h6>
-                                                <a href="pricing-style.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-usd-square"></i></span>
-                                                    <div class="drop-title">Pricing Style</div>
-                                                </a>
-                                                <a href="accordions.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-th-list"></i></span>
-                                                    <div class="drop-title">Accordions</div>
-                                                </a>
-                                                <a href="features.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-chart-network"></i></span>
-                                                    <div class="drop-title">Features</div>
-                                                </a>
-                                                <a href="footers.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-closed-captioning"></i></span>
-                                                    <div class="drop-title">Footers</div>
-                                                </a>
-
-                                                <a href="team.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-user"></i></span>
-                                                    <div class="drop-title">Our Team</div>
-                                                </a>
-                                                <a href="integration-style.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-paper-plane"></i></span>
-                                                    <div class="drop-title">Integration Style</div>
-                                                </a>
-                                                <a href="blog-style.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-th-large"></i></span>
-                                                    <div class="drop-title">Blog Style</div>
-                                                </a>
-                                            </div>
-                                            <div class="dropdown-grid-item last-item bg-light radius-right-side">
-                                                <a href="#"><img src="img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
-                                    <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                                        <div class="dropdown-grid rounded-custom width-full">
-                                            <div class="dropdown-grid-item">
-                                                <h6 class="drop-heading">Useful Links</h6>
-                                                <a href="about-us.html" class="dropdown-link px-0">
-                                                    <span class="me-2" ><i class="far fa-fingerprint"></i></span>
-                                                    <div class="drop-title">About Us</div>
-                                                </a>
-                                                <a href="contact-us.html" class="dropdown-link px-0">
-                                                    <span class="me-2"><i class="far fa-address-book"></i></span>
-                                                    <div class="drop-title">Contact Us</div>
-                                                </a>
-                                                <a href="services.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                    <div class="drop-title">Services</div>
-                                                </a>
-                                                <a href="service-single.html" class="dropdown-link px-0">
-                                                    <span class="me-2"><i class="far fa-server"></i></span>
-                                                    <div class="drop-title">Services Single</div>
-                                                </a>
-                                                <a href="blog.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-th-large"></i></span>
-                                                    <div class="drop-title">Our Latest News</div>
-                                                </a>
-                                                <a href="blog-single.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-bars"></i></span>
-                                                    <div class="drop-title">News Details</div>
-                                                </a>
-                                                <a href="career.html" class="dropdown-link px-0">
-                                                    <span class="me-2"><i class="far fa-graduation-cap"></i></span>
-                                                    <div class="drop-title">Career</div>
-                                                </a>
-                                                <a href="career-single.html" class="dropdown-link px-0">
-                                                    <span class="me-2"><i class="far fa-user-graduate"></i></span>
-                                                    <div class="drop-title">Career Single</div>
-                                                </a>
-                                                <a href="integrations.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-rocket-launch"></i></span>
-                                                    <div class="drop-title">Integrations</div>
-                                                </a>
-                                                <a href="integration-single.html" class="dropdown-link px-0">
-                                                    <span class="me-2"><i class="far fa-paper-plane"></i></span>
-                                                    <div class="drop-title">Integration Single</div>
-                                                </a>
-                                            </div>
-                                            <div class="dropdown-grid-item radius-right-side bg-light">
-                                                <h6 class="drop-heading">Utility Pages</h6>
-                                                <a href="style-guide.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
-                                                    <div class="drop-title">Style Guide</div>
-                                                </a>
-                                                <a href="support.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-life-ring"></i></span>
-                                                    <div class="drop-title">Help Center</div>
-                                                </a>
-                                                <a href="support-single.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-headset"></i></span>
-                                                    <div class="drop-title">Help Details</div>
-                                                </a>
-                                                <a href="request-demo.html" class="dropdown-link">
-                                                    <span class="me-2" ><i class="far fa-laptop-code"></i ></span>
-                                                    <div class="drop-title">Request for Demo</div>
-                                                </a>
-                                                <a href="login.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-sign-in"></i></span>
-                                                    <div class="drop-title">User Login</div>
-                                                </a>
-                                                <a href="register.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-user-plus"></i></span>
-                                                    <div class="drop-title">User SignUp</div>
-                                                </a>
-                                                <a href="password-reset.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-trash-undo"></i></span>
-                                                    <div class="drop-title">Recovery Account</div>
-                                                </a>
-                                                <a href="404.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-exclamation-triangle"></i></span>
-                                                    <div class="drop-title">404 Page</div>
-                                                </a>
-                                                <a href="coming-soon.html" class="dropdown-link">
-                                                    <span class="me-2"><i class="far fa-clock"></i></span>
-                                                    <div class="drop-title">Coming Soon</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                             <div class="action-btns mt-4 ps-3">
-                                <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
-                                <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                                <a href="login.html" class="btn btn-outline-primary me-2">Documentation</a>
+                                <a href="https://www.futurebasics.co.tz/contact-us" class="btn btn-primary">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -586,15 +123,17 @@
                 <div class="row justify-content-xl-between align-items-center">
                     <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h5 class="text-warning">Build your best quality app</h5>
-                            <h1 class="fw-bold display-5">Develop Your App with Quiety</h1>
+                            <h5 class="text-warning">Visualize, Analyze and Decide</h5>
+                            <h1 class="fw-bold display-5">Your Field Project Monitoring Tool</h1>
                             <p class="lead">
-                                Completely incubate client-centric data for robust infrastructures.
-                                Quickly extend revolutionary accurate strategic theme areas without
-                                cooperative.
+                                With  projects implemented in multiple areas with multiple actors,
+                                 it has never been easier  to manage front-line activities,
+                                  measure impact and make strategic  decisions with reliable
+                                   and accurate data from the field. The app automates data collection,
+                                    reporting and ensures beneficiaries are impacted directly.
                             </p>
                             <div class="action-btns mt-5">
-                                <a href="about-us.html" class="btn btn-outline-light">Explore More</a>
+                                <a href="about-us.html" class="btn btn-outline-light">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -614,9 +153,9 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <div class="section-heading text-center">
-                            <h2>Explore Premium Features</h2>
+                            <h2>Explore Your Premium Features</h2>
                             <p>
-                                A bit of how's your father he nicked it charles daft plast lavator.
+                                Implement flexible technology solutions that fit your business processes.
                             </p>
                         </div>
                     </div>
@@ -630,10 +169,10 @@
                                         <i class="far fa-file-edit"></i>
                                     </div>
                                     <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Easy to Customized</h3>
+                                        <h3 class="h5">A Tailored Solution</h3>
                                         <p>
-                                            Authoritatively productize orthogonal networks rather than
-                                            state of the art interfaces.
+                                            We understand businesses operate differently, have different SOP's.
+                                            Radarmile Team assess and build a solution that fits you business operations.
                                         </p>
                                         <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
@@ -645,10 +184,10 @@
                                         <i class="far fa-bell"></i>
                                     </div>
                                     <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Mobile App</h3>
+                                        <h3 class="h5">Cross platforms compatibility</h3>
                                         <p>
-                                            Enthusiastically envisioneer integrated catalysts for change
-                                            before fully researched vortals.
+                                            We understand the need to be available in most devices for easier accessibility,
+                                             we build solutions that are available all devices.
                                         </p>
                                         <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
@@ -660,7 +199,7 @@
                                         <i class="far fa-pen-nib"></i>
                                     </div>
                                     <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Expand your reach</h3>
+                                        <h3 class="h5">Automated reports</h3>
                                         <p>
                                             Authoritatively syndicate focused ideas whereas revolutionary
                                             outsourcing.
@@ -675,10 +214,9 @@
                                         <i class="far fa-cloud-download-alt"></i>
                                     </div>
                                     <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Free Download</h3>
+                                        <h3 class="h5">Data analytics</h3>
                                         <p>
-                                            Rapidiously reintermediate plug-and-play potentialities via
-                                            cross-unit e-markets.
+                                            Rapid data visualisation capabilities, that supports data analysis and visualisation.
                                         </p>
                                         <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
@@ -703,35 +241,37 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="app-two-feature-two-right">
                             <div class="feature-content-wrap">
-                                <h4 class="h6">Best Features</h4>
-                                <h2>Boost up your Phone in just one click</h2>
+                                <h4 class="h6">More Features</h4>
+                                <h2>Improve productivity and Maximize impact by utilizing Modern technologies </h2>
                                 <p>
-                                    Completely evolve orthogonal sources via cooperative data. Dynamically promote high standards in resources after timely catalysts for alignments and visionary quality vectors.
+                                    Automating business processes, real-time communication and transparency improves
+                                    business decision making significantly, with a tool like Radarmile its has never
+                                    been easier to manage and execute programs that are executed
+                                     and  monitor in multiple areas.
                                 </p>
                             </div>
                             <div class="app-two-feature-two-content">
                                 <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4">
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Based on Bootstrap Grid
+                                        <i class="fad fa-check-circle me-2"></i>User friendly UI/UX
                                     </li>
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Online Learning
+                                        <i class="fad fa-check-circle me-2"></i>Customized options
                                     </li>
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Track your spending
+                                        <i class="fad fa-check-circle me-2"></i>Tracing and indexing
                                     </li>
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Unlimited Download
+                                        <i class="fad fa-check-circle me-2"></i>Data  visualization
                                     </li>
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Responisve Design
-                                    </li>
+                                        <i class="fad fa-check-circle me-2"></i>Data Security
                                     <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i> Always Be in Touch
+                                        <i class="fad fa-check-circle me-2"></i>Data Syncronization
                                     </li>
                                 </ul>
                                 <div class="action-btns mt-5">
-                                    <a href="about-us.html" class="btn app-two-btn">Learn About More</a>
+                                    <a href="about-us.html" class="btn app-two-btn">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -748,18 +288,19 @@
                     <div class="col-lg-5 col-xl-5 col-sm-12">
                         <div class="app-two-feature-three-left">
                             <div class="app-content-feature-wrap">
-                                <h2>We provide Quality works for developed App</h2>
+                                <h2>We provide tailored Radarmile solutions that fit your business</h2>
                                 <p>
-                                    Car boot absolutely bladdered posh burke the wireless mush some
-                                    dodgy chav you mug. Energistically conceptualize scalable quality
-                                    vectors through wireless channels. .
+                                    We understand different businesses, organizations
+                                     and programs have different procedures on how they operate,
+                                     execute and monitor operation, We create tailored solutions
+                                     that fits your business processes.
                                 </p>
                             </div>
                             <div class="accordion faq-accordion mt-5" id="accordionExample">
                                 <div class="accordion-item active border-0">
                                     <h5 class="accordion-header" id="faq-1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
-                                            <i class="far fa-bell pe-3"></i> How does back pricing work?
+                                            <i class="far fa-bell pe-3"></i> How do i get my own Tailored Radarmile solution?
                                         </button>
                                     </h5>
 
@@ -775,7 +316,7 @@
                                     <h5 class="accordion-header" id="faq-2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
                                             <i class="far fa-command pe-3"></i>
-                                            Can you show me an example?
+                                            Do I need to have background  on Digital Solution Technologies?
                                         </button>
                                     </h5>
                                     <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionExample">
@@ -790,7 +331,7 @@
                                     <h5 class="accordion-header" id="faq-3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
                                             <i class="fas fa-link pe-3"></i>
-                                            How do I processing I need?
+                                            What do I need to get started?
                                         </button>
                                     </h5>
                                     <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionExample">
@@ -839,8 +380,10 @@
                                     Powerful Solutions for Your Business Needs
                                 </h2>
                                 <p>
-                                    Quickly incubate functional channels with multidisciplinary
-                                    architectures authoritatively fabricate.
+                                    Radarmile enables project leaders, organisations and companies to
+                                     have a wide and clear understanding of what is happening on the ground,
+                                     The tool enables stakeholders to collect,
+                                     manage and make strategic decisions  with the use of data.
                                 </p>
                             </div>
                             <div class="cta-count">
@@ -877,8 +420,8 @@
                         <div class="mb-4 mb-sm-5">
                             <h2>Our Happy Clients say about us.</h2>
                             <p class="m-0">
-                                Oxford hunky dory super so I said bender arse over blog.so I said
-                                bender arse over blog.
+                                Our goal is to improve efficiency and operational capabilities for our clients,
+                                 with our solution our clients have shown record results in productivity and service delivery
                             </p>
                         </div>
                     </div>
@@ -1013,30 +556,29 @@
                         <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
                             <div class="single-icon-box p-0 p-lg-4">
                                 <i class="far fa-chart-pie-alt icon-one"></i>
-                                <h5 class="h6">Fully Functional</h5>
-                                <p>Eaton cheeky blimy bog bugger all mate simplify fully pardon.</p>
+                                <h5 class="h6">Feature Rich</h5>
+                                <p>Get access to a variety of features that enable to automate business processes..</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
                             <div class="single-icon-box p-0 p-lg-4">
                                 <i class="far fa-pen-nib icon-two"></i>
-                                <h5 class="h6">UX Design</h5>
-                                <p>Eaton cheeky simplify fully bog bugger all mate pardon.</p>
+                                <h5 class="h6">User friendly</h5>
+                                <p>Built with the end user in mind.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
                             <div class="single-icon-box p-0 p-lg-4">
                                 <i class="far fa-chart-network icon-three"></i>
                                 <h5 class="h6">Stay Connected</h5>
-                                <p>Eaton cheeky blimy bog bugger simplify fully all mate pardon.</p>
+                                <p>Clear visualisation of field activities.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
                             <div class="single-icon-box p-0 p-lg-4">
                                 <i class="far fa-bezier-curve icon-four"></i>
-                                <h5 class="h6">Easy to customized</h5>
-                                <p>Eaton cheeky blimy bog bugger all mate pardon simplify fully.</p>
-                            </div>
+                                <h5 class="h6">Progress Web Services</h5>
+                                <p>Online and Offline data collection capabilities.
                         </div>
                     </div>
                 </div>
@@ -1176,7 +718,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Future Basics Company limited Rights Reserved. Designed By <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a></p>
+                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Future Basics Company limited Rights Reserved. Designed By <a href="https://futurebasics.co.tz/" class="text-decoration-none">Future Basics Company Limited</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
