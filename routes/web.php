@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/documentation', [App\Http\Controllers\PublicPagesController::class, 'viewDocPage'])->name('documentation');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
