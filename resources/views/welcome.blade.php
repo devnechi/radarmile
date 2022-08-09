@@ -7,7 +7,7 @@
                 <div class="row justify-content-xl-between align-items-center">
                     <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
                         <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h5 class="text-warning">Visualize, Analyze and Decide</h5>
+                            <h5 class="text-warning">Collect, Analyze and Report</h5>
                             <h1 class="fw-bold display-5">Your Field Project Monitoring Tool</h1>
                             <p class="lead">
                                 With  projects implemented in multiple areas with multiple actors,
