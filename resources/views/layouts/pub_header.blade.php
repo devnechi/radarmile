@@ -77,7 +77,7 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
-                            <li><a href="{{ url('/') }}" class="nav-link">About</a></li>
+                            <li><a href="{{ route('about-us') }}" class="nav-link">About</a></li>
                         </ul>
                     </div>
 
