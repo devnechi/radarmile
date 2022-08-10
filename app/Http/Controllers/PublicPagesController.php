@@ -14,4 +14,8 @@ class PublicPagesController extends Controller
     public function viewAbout(){
         return view('about_us');
     }
+
+    public function viewServiceDetails(){
+        return view('services.service_details');
+    }
 }

@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::get('/documentation', [App\Http\Controllers\PublicPagesController::class, 'viewDocPage'])->name('documentation');
 Route::get('/about-us', [App\Http\Controllers\PublicPagesController::class, 'viewAbout'])->name('about-us');
+Route::get('/capabilities-details', [App\Http\Controllers\PublicPagesController::class, 'viewServiceDetails'])->name('capabilities-details');
 
 Auth::routes();
 

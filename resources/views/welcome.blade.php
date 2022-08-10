@@ -37,7 +37,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <div class="section-heading text-center">
-                            <h2>Explore Your Premium Features</h2>
+                            <h2>Explore Radarmile Capabilities</h2>
                             <p>
                                 Implement flexible technology solutions that fit your business processes.
                             </p>
@@ -58,7 +58,7 @@
                                             We understand businesses operate differently, have different SOP's.
                                             Radarmile Team assess and build a solution that fits you business operations.
                                         </p>
-                                        <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
+                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                             We understand the need to be available in most devices for easier accessibility,
                                              we build solutions that are available all devices.
                                         </p>
-                                        <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
+                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                             Authoritatively syndicate focused ideas whereas revolutionary
                                             outsourcing.
                                         </p>
-                                        <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
+                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                         <p>
                                             Rapid data visualisation capabilities, that supports data analysis and visualisation.
                                         </p>
-                                        <a href="service-single.html" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
+                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,8 @@
                         <div class="app-two-feature-two-right">
                             <div class="feature-content-wrap">
                                 <h4 class="h6">More Features</h4>
-                                <h2>Improve productivity and Maximize impact by utilizing Modern technologies </h2>
+                                <h2>Improve how you track field operations and progress utilizing Modern technologies
+                                </h2>
                                 <p>
                                     Automating business processes, real-time communication and transparency improves
                                     business decision making significantly, with a tool like Radarmile its has never
