@@ -296,7 +296,7 @@
                         <h5 class="accordion-header" id="faq-9">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse-9" aria-expanded="false">
-                                What Radarmile?
+                                Why Radarmile?
                             </button>
                         </h5>
                         <div id="collapse-9" class="accordion-collapse collapse" aria-labelledby="faq-5"
