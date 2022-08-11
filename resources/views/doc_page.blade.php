@@ -27,7 +27,7 @@
                     <p>Completely whiteboard top-line channels and fully tested value. Competently generate
                         testing procedures before visionary maintainable growth strategies for maintainable.</p>
                     <div class="action-btns mt-4 ps-3">
-                        <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download PDF</a>
+                        <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Full .PDF</a>
                     </div>
                 </div>
             </div>
