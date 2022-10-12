@@ -152,7 +152,7 @@
                             <div class="row">
                                 <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                                     <div class="footer-single-col">
-                                        <h3>Primary Pages</h3>
+                                        <h3>Navigation</h3>
                                         <ul class="list-unstyled footer-nav-list mb-lg-0">
                                             <li><a href="index.html" class="text-decoration-none">Home</a></li>
                                             <li><a href="{{ route('about-us') }}" class="text-decoration-none">About Us</a></li>
@@ -177,9 +177,9 @@
                                 </div>
                                 <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                                     <div class="footer-single-col">
-                                        <h3>Template</h3>
+                                        <h3>Information</h3>
                                         <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
+                                            <li><a href="https://www.futurebasics.co.tz/contact-us" class="text-decoration-none">Contact</a></li>
 
                                         </ul>
                                     </div>
@@ -198,7 +198,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Future Basics Company limited Rights Reserved. Designed By <a href="https://futurebasics.co.tz/" class="text-decoration-none">Future Basics Company Limited</a></p>
+                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Future Basics Company limited Rights Reserved. Developed By <a href="https://futurebasics.co.tz/" class="text-decoration-none">Future Basics Company Limited</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">

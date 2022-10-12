@@ -8,8 +8,8 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <h1 class="display-5 fw-bold">Radarmile Tool</h1>
-                <p class="lead">Seamlessly actualize client-based users after out-of-the-box value. Globally embrace
-                    strategic data through frictionless expertise.</p>
+                <p class="lead">Radarmile solves the <i>‘last-mile’</i> data access challenge
+                    facing programs with activities implemented in multiple sites by many actors. It's a tool that supports data collection and management.</p>
             </div>
         </div>
         <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
@@ -24,8 +24,7 @@
                 <div class="section-heading mb-5 text-center">
                     <h5 class="h6 text-primary">Application</h5>
                     <h2>Radarmile Application Platform</h2>
-                    <p>Completely whiteboard top-line channels and fully tested value. Competently generate
-                        testing procedures before visionary maintainable growth strategies for maintainable.</p>
+                    <p>More information about the application could found below, or if you would like a copy please use the download link.</p>
                     <div class="action-btns mt-4 ps-3">
                         <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Full .PDF</a>
                     </div>
@@ -99,7 +98,7 @@
                         <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                RADARMILE is a digital software that when implimented in such remote and/or
+                                Radarmile is a digital software that when implimented in such remote and/or
                                 multiple site projects, digitally tracks all project activities and changes
                                 conducted in multiple sites by multiple actors up to the ‘last-mile’. RADARMILE
                                 digitally stores project activity information in real time, therefore making it
@@ -257,7 +256,7 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
 
-                                <h3>projec tenablers & facilitators</h3>
+                                <h4>Project enablers & facilitators</h4>
                                 <h5>The Project Enablers and Facilitators will:</h5>
                                 <ul>
                                     <li>Receive and send feedback/forward faster.</li>
@@ -268,8 +267,8 @@
                                     <li>Have reduced reliance on subjective, manual and untimely project reports.</li>
 
                                 </ul>
-                                <h3>service providers & field officers</h3>
-                                <h5>serviceproviders & field officers will:</h5>
+                                <h4>Service providers & field officers</h4>
+                                <h5>Service providers & field officers will:</h5>
                                 <ul>
                                     <li>Be provided with a simpler and safer method to collect and store data.</li>
                                     <li>Be able to send and receive feedback/forward faster.</li>
@@ -278,7 +277,7 @@
                                         a computer device (eg: smartphone).</li>
 
                                 </ul>
-                                <h3>Beneficiaries</h3>
+                                <h4>Beneficiaries</h4>
                                 <h5>Beneficiaries will:</h5>
                                 <ul>
                                     <li>Be less likely to be missed by the project as everything is
@@ -306,7 +305,7 @@
                                     project tasks and implementation process for each actor involved in the project
                                     whilst increasing the accuracy and efficiency of the implementation process.</p>
                                 <br />
-                                <h5>Furthermore, radamile...</h5>
+                                <h5>Furthermore, Radamile...</h5>
                                 <ul>
                                     <li>Is simple to use as it only requires internet access and a
                                         smartphone.</li>

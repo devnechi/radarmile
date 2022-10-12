@@ -476,7 +476,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-xl-6 col-md-10">
                         <div class="section-heading text-center">
-                            <h2 class="text-white">Get The App Now and Start Learning Today</h2>
+                            <h2 class="text-white">Get The App Now and Automate Your Business</h2>
                         </div>
                     </div>
                 </div>
