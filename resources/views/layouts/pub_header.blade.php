@@ -75,13 +75,15 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
-                    <small>123 Street, New York, USA</small>
+                    <small>11B Samsa Real Estate
+                        Biafra Kinondoni
+                        Dar es Salaam, Tanzania</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-envelope-open text-white"></small>
                     </div>
-                    <small>info@example.com</small>
+                    <small>info@futurebasics.co.tz</small>
                 </div>
             </div>
             <div class="col-lg-6 text-end">
@@ -89,7 +91,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-phone-alt text-white"></small>
                     </div>
-                    <small>+012 345 6789</small>
+                    <small>+255 743 728 990</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -106,7 +108,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h2 class="m-0 text-primary">Securex</h2>
+            <h2 class="m-0 text-primary">Radarmile</h2>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -150,9 +152,11 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>11B Samsa Real Estate
+                        Biafra Kinondoni
+                        Dar es Salaam, Tanzania</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+255 743 728 990</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@futurebasics.co.tz</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -162,11 +166,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Business Security</a>
-                    <a class="btn btn-link" href="">Fire Detection</a>
-                    <a class="btn btn-link" href="">Alarm Systems</a>
-                    <a class="btn btn-link" href="">CCTV & Video</a>
-                    <a class="btn btn-link" href="">Smart Home</a>
+                    <a class="btn btn-link" href="">Business Solutions</a>
+                    <a class="btn btn-link" href="">Project Solutions</a>
+                    <a class="btn btn-link" href="">Enterprise Solution</a>
+                    <a class="btn btn-link" href="">Program Solutions</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>

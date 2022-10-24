@@ -6,7 +6,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/slider/r1.png" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="img/slider/r2.png" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <img class="img-fluid" src="img/slider/r1.png" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
