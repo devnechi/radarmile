@@ -18,4 +18,12 @@ class PublicPagesController extends Controller
     public function viewServiceDetails(){
         return view('services.service_details');
     }
+
+    public function viewContactus(){
+        return view('contact-us');
+    }
+
+    public function viewProjects(){
+        return view('projects');
+    }
 }

@@ -1,514 +1,557 @@
 @extends('layouts.pub_header')
 
 @section('content')
-        <!--hero section start-->
-        <section class="hero-section ptb-120 bg-purple text-white" style="background: url('img/app-two-mockup-bg.png')no-repeat center center / cover">
-            <div class="container">
-                <div class="row justify-content-xl-between align-items-center">
-                    <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
-                        <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                            <h5 class="text-warning">Collect, Analyze and Report</h5>
-                            <h1 class="fw-bold display-5">Your Field Project Monitoring Tool</h1>
-                            <p class="lead">
-                                With  projects implemented in multiple areas with multiple actors,
-                                 it has never been easier  to manage front-line activities,
-                                  measure impact and make strategic  decisions with reliable
-                                   and accurate data from the field. The app automates data collection,
-                                    reporting and ensures beneficiaries are impacted directly.
-                            </p>
-                            <div class="action-btns mt-5">
-                                <a href="{{ route('documentation') }}" class="btn btn-outline-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-8 mt-5">
-                        <div class="hero-app-img position-relative text-center">
-                            <img src="img/fullheadphone.png" alt="app screen" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--hero section end-->
 
-        <!-- app two feature start -->
-        <section class="app-two-feature ptb-120">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-10">
-                        <div class="section-heading text-center">
-                            <h2>Explore Radarmile Capabilities</h2>
-                            <p>
-                                Implement flexible technology solutions that fit your business processes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-xl-10">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="app-two-single-feature d-md-flex align-items-start mb-30">
-                                    <div class="app-two-single-feature-icon box-one me-3 mb-4 mb-md-0">
-                                        <i class="far fa-file-edit"></i>
-                                    </div>
-                                    <div class="app-two-single-feature-content">
-                                        <h3 class="h5">A Tailored Solution</h3>
-                                        <p>
-                                            We understand businesses operate differently, have different SOP's.
-                                            Radarmile Team assess and build a solution that fits you business operations.
-                                        </p>
-                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="app-two-single-feature d-md-flex align-items-start mb-30">
-                                    <div class="app-two-single-feature-icon box-two me-3 mb-4 mb-md-0">
-                                        <i class="far fa-bell"></i>
-                                    </div>
-                                    <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Cross platforms compatibility</h3>
-                                        <p>
-                                            We understand the need to be available in most devices for easier accessibility,
-                                             we build solutions that are available all devices.
-                                        </p>
-                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="app-two-single-feature d-md-flex align-items-start mb-30">
-                                    <div class="app-two-single-feature-icon box-three me-3 mb-4 mb-md-0">
-                                        <i class="far fa-pen-nib"></i>
-                                    </div>
-                                    <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Automated reports</h3>
-                                        <p>
-                                            Authoritatively syndicate focused ideas whereas revolutionary
-                                            outsourcing.
-                                        </p>
-                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="app-two-single-feature d-md-flex align-items-start mb-30">
-                                    <div class="app-two-single-feature-icon box-four me-3 mb-4 mb-md-0">
-                                        <i class="far fa-cloud-download-alt"></i>
-                                    </div>
-                                    <div class="app-two-single-feature-content">
-                                        <h3 class="h5">Data analytics</h3>
-                                        <p>
-                                            Rapid data visualisation capabilities, that supports data analysis and visualisation.
-                                        </p>
-                                        <a href="{{ route('capabilities-details') }}" class="link-with-icon text-decoration-none">View Details <i class="far fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For You</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two feature end -->
-
-        <!-- app two feature two start -->
-        <section class="app-two-feature-two pt-60 pb-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-lg-6 col-xl-6 col-md-12">
-                        <div class="app-two-feature-two-img">
-                            <img src="img/phoneheader.png" alt="feature image" class="img-fluid" />
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5">
-                        <div class="app-two-feature-two-right">
-                            <div class="feature-content-wrap">
-                                <h4 class="h6">More Features</h4>
-                                <h2>Improve how you track field operations and progress utilizing Modern technologies
-                                </h2>
-                                <p>
-                                    Automating business processes, real-time communication and transparency improves
-                                    business decision making significantly, with a tool like Radarmile its has never
-                                    been easier to manage and execute programs that are executed
-                                     and  monitor in multiple areas.
-                                </p>
-                            </div>
-                            <div class="app-two-feature-two-content">
-                                <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4">
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>User friendly UI/UX
-                                    </li>
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Customized options
-                                    </li>
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Tracing and indexing
-                                    </li>
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Data  visualization
-                                    </li>
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Data Security
-                                    <li class="py-1">
-                                        <i class="fad fa-check-circle me-2"></i>Data Syncronization
-                                    </li>
-                                </ul>
-                                <div class="action-btns mt-5">
-                                    <a href="about-us.html" class="btn app-two-btn">Learn More</a>
-                                </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All Business</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two feature two end -->
-
-        <!-- app two feature three start -->
-        <section class="app-two-feature-three bg-light ptb-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-lg-5 col-xl-5 col-sm-12">
-                        <div class="app-two-feature-three-left">
-                            <div class="app-content-feature-wrap">
-                                <h2>We provide tailored Radarmile solutions that fit your business</h2>
-                                <p>
-                                    We understand different businesses, organizations
-                                     and programs have different procedures on how they operate,
-                                     execute and monitor operation, We create tailored solutions
-                                     that fits your business processes.
-                                </p>
-                            </div>
-                            <div class="accordion faq-accordion mt-5" id="accordionExample">
-                                <div class="accordion-item active border-0">
-                                    <h5 class="accordion-header" id="faq-1">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true">
-                                            <i class="far fa-bell pe-3"></i> How do i get my own Tailored Radarmile solution?
-                                        </button>
-                                    </h5>
-
-                                    <div id="collapse-1" class="accordioncollapse collapse show" aria-labelledby="faq-1" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Dramatically formulate cross-unit products with web-enabled
-                                            action items. Quickly maximize extensible methods of
-                                            empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item border-0">
-                                    <h5 class="accordion-header" id="faq-2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
-                                            <i class="far fa-command pe-3"></i>
-                                            Do I need to have background  on Digital Solution Technologies?
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Continually innovate technically sound internal or "organic"
-                                            sources with market positioning content. Completely drive
-                                            optimal intellectual.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item border-0">
-                                    <h5 class="accordion-header" id="faq-3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
-                                            <i class="fas fa-link pe-3"></i>
-                                            What do I need to get started?
-                                        </button>
-                                    </h5>
-                                    <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Phosfluorescently deliver cooperative testing procedures after
-                                            integrated communities. Dramatically simplify
-                                            resource-leveling models with unique.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-6 col-sm-12">
-                        <div class="app-two-feature-three-img position-relative text-center mt-5 mt-lg-0">
-                            <div class="feature-three-shape">
-                                <img src="img/app-two-feature-blob-shape.png" alt="app screen" class="feature-three-blob img-fluid" />
-                            </div>
-                            <img src="img/pg/main-pn.png" alt="app screen" class="position-relative z-5" />
-                            <div class="img-peice d-none d-lg-block">
-                                <img src="img/pg/atc.png" alt="app screen" class="img-one position-absolute custom-shadow" />
-                                <img src="img/pg/on-gon.png" alt="app screen" class="img-two position-absolute custom-shadow" />
-                                <img src="img/pg/tran.png" alt="app screen" class="img-three position-absolute custom-shadow" />
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two feature three end -->
+        </div>
+    </div>
+    <!-- Carousel End -->
 
-        <!-- app two feature three start -->
-        <section class="app-two-cta ptb-120 text-white bg-purple" style="background-image: url('img/hero-dot-bg.png')">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-lg-6 col-xl-6">
-                        <div class="app-two-mockup position-relative text-center pe-5">
-                            <img src="img/boostinfo.png" alt="" class="img-fluid position-relative z-5" />
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle" style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
                         </div>
+                        <h5 class="text-white">Home Security</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
                     </div>
-                    <div class="col-lg-6 col-xl-6 col-md-10">
-                        <div class="app-two-cta-right px-md-0 pt-5 pt-md-0">
-                            <div class="section-heading text-white">
-                                <h2 class="text-white">
-                                    Powerful Solutions for Your Business Needs
-                                </h2>
-                                <p>
-                                    Radarmile enables project leaders, organisations and companies to
-                                     have a wide and clear understanding of what is happening on the ground,
-                                     The tool enables stakeholders to collect,
-                                     manage and make strategic decisions  with the use of data.
-                                </p>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle" style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
                             </div>
-                            <div class="cta-count">
-                                <ul class="list-unstyled d-flex">
-                                    <li class="me-4">
-                                        <h3 class="text-white mb-0">72k+</h3>
-                                        <span>Happy users</span>
-                                    </li>
-                                    <li class="me-4">
-                                        <h3 class="text-white mb-0">16</h3>
-                                        <span>Good reviews</span>
-                                    </li>
-                                    <li class="me-4">
-                                        <h3 class="text-white mb-0">28k+</h3>
-                                        <span>App download</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="action-btns mt-5">
-                                <a href="contact-us.html" class="btn btn-outline-light">Learn More</a>
-                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
                         </div>
+                        <h5 class="text-white">Access Control</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle" style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
+                        </div>
+                        <h5 class="text-white">24/7 Support</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two feature three end -->
+        </div>
+    </div>
+    <!-- Facts Start -->
 
-        <!-- app two customer review start -->
-        <section class="cutomer-review-app-two ptb-120">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 col-12">
-                        <div class="mb-4 mb-sm-5">
-                            <h2>Our Happy Clients say about us.</h2>
-                            <p class="m-0">
-                                Our goal is to improve efficiency and operational capabilities for our clients,
-                                 with our solution our clients have shown record results in productivity and service delivery
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-12 text-end d-none d-lg-block">
-                        <div class="appTwoReviewSwiper-Controller ms-md-auto position-relative">
-                            <span class="swiper-button-next"></span>
-                            <span class="swiper-button-prev"></span>
-                        </div>
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="swiper-container appTwoReviewSwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide position-relative">
-                                    <div class=" single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
-                                        <ul class="review-rate mb-1 list-unstyled list-inline">
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                        </ul>
-                                        <h5 class="h6">5 review average in our app</h5>
-                                        <p>
-                                            Blinding shot excuse my french willia david tosser jeffrey
-                                            bubble and sque bleeder mush.
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <img src="img/testimonial/app-testimonial-1.png" class="img-fluid me-3 rounded-circle" width="50" alt="user" />
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Chauffina Carr</h6>
-                                                <small>Founder</small>
-                                            </div>
-                                        </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">About Us</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <div class="row g-4 mb-4 pb-3">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide position-relative">
-                                    <div class=" single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
-                                        <ul class="review-rate mb-1 list-unstyled list-inline">
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                        </ul>
-                                        <h5 class="h6">35+ minutes per session</h5>
-                                        <p>
-                                            Blinding shot excuse my french willia david tosser jeffrey
-                                            bubble and sque bleeder mush.
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <img src="img/testimonial/app-testimonial-2.png" class="img-fluid me-3 rounded-circle" width="50" alt="user" />
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Hugh Saturation</h6>
-                                                <small>UX Designer</small>
-                                            </div>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide position-relative">
-                                    <div class=" single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
-                                        <ul class="review-rate mb-1 list-unstyled list-inline">
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                        </ul>
-                                        <h5 class="h6">$0.00 everything is FREE</h5>
-                                        <p>
-                                            Blinding shot excuse my french willia david tosser jeffrey
-                                            bubble and sque bleeder mush.
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <img src="img/testimonial/app-testimonial-3.png" class="img-fluid me-3 rounded-circle" width="50" alt="user" />
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Richard Tea</h6>
-                                                <small>Manager</small>
-                                            </div>
-                                        </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+            <div class="row g-0 service-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Commercial CCTV System</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Finger Print Access</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Fire Detection And Safety</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Smart Home Security</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Why Choose Us</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Trusted</p>
+                                        <h5 class="mb-0">Security</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Smart</p>
+                                        <h5 class="mb-0">Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">24/7 Hours</p>
+                                        <h5 class="mb-0">Support</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- app two customer review end -->
-
-        <!-- app two video promo start -->
-        <section class="video-promo-with-icon">
-            <div class="container">
-                <div class="video-bg-with-icon" style="background: url('img/video-bg.jpg')no-repeat center center / cover">
-                    <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="popup-youtube"><i class="fas fa-play"></i></a>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="video-promo-icon-wrapper bg-light pt-80 pb-120">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                            <div class="single-icon-box p-0 p-lg-4">
-                                <i class="far fa-chart-pie-alt icon-one"></i>
-                                <h5 class="h6">Feature Rich</h5>
-                                <p>Get access to a variety of features that enable to automate business processes..</p>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                            <div class="single-icon-box p-0 p-lg-4">
-                                <i class="far fa-pen-nib icon-two"></i>
-                                <h5 class="h6">User friendly</h5>
-                                <p>Built with the end user in mind.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                            <div class="single-icon-box p-0 p-lg-4">
-                                <i class="far fa-chart-network icon-three"></i>
-                                <h5 class="h6">Stay Connected</h5>
-                                <p>Clear visualisation of field activities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xl-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                            <div class="single-icon-box p-0 p-lg-4">
-                                <i class="far fa-bezier-curve icon-four"></i>
-                                <h5 class="h6">Progress Web Services</h5>
-                                <p>Online and Offline data collection capabilities.
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two video promo end -->
+        </div>
+    </div>
+    <!-- Projects End -->
 
-        <!-- app two download cta start -->
-        <section class="app-two-download-cta ptb-120" style="background: url('img/app-download-cta.png')no-repeat center center / cover">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-xl-6 col-md-10">
-                        <div class="section-heading text-center">
-                            <h2 class="text-white">Get The App Now and Automate Your Business</h2>
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Free Quote</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7 col-12">
-                        <div class="action-btns mt-3">
-                            <ul class="list-unstyled text-center">
-                                <li class="d-inline-block me-2 mb-lg-0">
-                                    <a class="
-                        d-flex
-                        align-items-center
-                        text-decoration-none
-                        rounded
-                        active
-                      " href="#"><i class="fab fa-apple pe-2"></i>
-                                        <span>Available on the <span>App Store</span></span></a>
-                                </li>
-                                <li class="d-inline-block me-2 mb-lg-0">
-                                    <a class="d-flex align-items-center text-decoration-none rounded" href="#"><i class="fab fa-google-play pe-2"></i>
-                                        <span>Available on the <span>Google Play</span></span></a>
-                                </li>
-                                <li class="d-inline-block mb-lg-0">
-                                    <a class="d-flex align-items-center text-decoration-none rounded" href="#"><i class="fab fa-windows pe-2"></i>
-                                        <span>Available on the <span>Google Play</span></span></a>
-                                </li>
-                            </ul>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- app two download cta end -->
+        </div>
+    </div>
+    <!-- Team End -->
 
 
-        @endsection
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Testimonial</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+ @endsection

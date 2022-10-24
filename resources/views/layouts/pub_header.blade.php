@@ -31,202 +31,201 @@
 
         <!--title-->
         <title>Radarmile - Field Monitoring tool</title>
+  <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        <!--google fonts-->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!--build:css-->
-        {{-- <link rel="stylesheet" href="assets/css/main.css"> --}}
-        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="{{ URL::asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('lib/animate/animate.min.css') }}" rel="stylesheet">
 
-        <!-- endbuild -->
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
         <!--custom css start-->
         {{-- <link rel="stylesheet" href="assets/css/custom.css"> --}}
-        <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+        {{-- <link href="{{ asset('css/custom.css') }}" rel="stylesheet"> --}}
 
         <!--custom css end-->
 
     </head>
     <body>
-
-    <!--preloader start-->
-    <div id="preloader">
-        <div class="preloader-wrap">
-            <img src="img/fbricon.png" alt="logo" class="img-fluid preloader-icon" />
-            <div class="loading-bar"></div>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <!--preloader end-->
-    <!--main content wrapper start-->
-    <div class="main-wrapper">
-        <!--header section start-->
-        <!--header start-->
-        <header class="main-header position-absolute w-100">
-            <nav class="navbar navbar-expand-xl navbar-dark sticky-header">
-                <div class="container d-flex align-items-center justify-content-lg-between position-relative">
-                    <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                        <img src="img/rlogo-white.png" alt="logo" class="img-fluid logo-white" />
-                        <img src="img/rlogo-color.png" alt="logo" class="img-fluid logo-color" />
-                    </a>
+    <!-- Spinner End -->
 
-                    <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
-                        <span class="far fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></span>
-                    </a>
-                    <div class="clearfix"></div>
-                    <div class="collapse navbar-collapse justify-content-center">
-                        <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                            <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
-                            <li><a href="{{ route('about-us') }}" class="nav-link">About</a></li>
-                        </ul>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
-
-                    <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="{{ route('documentation') }}" class="btn btn-link text-decoration-none me-2">Documentation</a>
-                        <a href="https://www.futurebasics.co.tz/contact-us" class="btn btn-primary">Contact Us</a>
-                    </div>
-
-                    <!--offcanvas menu start-->
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
-                        <div class="offcanvas-header d-flex align-items-center mt-4">
-                            <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                                <img src="img/logo-color.png" alt="logo" class="img-fluid ps-2" />
-                            </a>
-                            <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
-                                <i class="far fa-close"></i>
-                            </button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                                <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
-                                <li><a href="{{ route('about-us') }}" class="nav-link">About</a></li>
-
-                            </ul>
-                            <div class="action-btns mt-4 ps-3">
-                                <a href="{{ route('documentation') }}" class="btn btn-outline-primary me-2">Documentation</a>
-                                <a href="https://www.futurebasics.co.tz/contact-us" class="btn btn-primary">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--offcanvas menu end-->
+                    <small>123 Street, New York, USA</small>
                 </div>
-            </nav>
-        </header>
-        <!--header end-->
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Mon - Fri : 9AM - 9PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">Securex</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('about-us') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('services') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('projects') }}" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="{{ route('contact-us') }}" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
         <!--header section end-->
         @yield('content')
 
-        <!--footer section start-->
-        <footer class="footer-section">
-            <!--footer top start-->
-            <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
-            <div class="footer-top footer-light ptb-120">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
-                            <div class="footer-single-col">
-                                <div class="footer-single-col mb-4">
-                                    <img src="img/rlogo-white.png" alt="logo" class="img-fluid logo-white">
-                                    <img src="img/rlogo-color.png" alt="logo" class="img-fluid logo-color">
-                                </div>
-                                {{-- <p>Our latest news, articles, and resources, we will sent to
-                                    your inbox weekly.</p>
 
-                                <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
-                                    <input type="text" class="input-newsletter form-control me-2" placeholder="Enter your email" name="email" required="" autocomplete="off">
-                                    <input type="submit" value="Subscribe" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
-                                </form> --}}
-                                <div class="ratting-wrap mt-4">
-                                    <h6 class="mb-0">10/10 Overall rating</h6>
-                                    <ul class="list-unstyled rating-list list-inline mb-0">
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                                    <div class="footer-single-col">
-                                        <h3>Navigation</h3>
-                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
-                                            <li><a href="{{ route('about-us') }}" class="text-decoration-none">About Us</a></li>
-                                            <li><a href="{{ route('documentation') }}" class="text-decoration-none">Documentation</a></li>
-                                       </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                                    <div class="footer-single-col">
-                                        {{-- <h3>Pages</h3>
-                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="pricing.html" class="text-decoration-none">Pricing</a></li>
-                                            <li><a href="blog.html" class="text-decoration-none">Blog</a></li>
-                                            <li><a href="blog-single.html" class="text-decoration-none">Blog Details</a></li>
-                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
-                                            <li><a href="career-single.html" class="text-decoration-none">Career Single</a>
-                                            </li>
-                                            <li><a href="service-single.html" class="text-decoration-none">Services
-                                                    Single</a></li>
-                                        </ul> --}}
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                                    <div class="footer-single-col">
-                                        <h3>Information</h3>
-                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="https://www.futurebasics.co.tz/contact-us" class="text-decoration-none">Contact</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link" href="">Business Security</a>
+                    <a class="btn btn-link" href="">Fire Detection</a>
+                    <a class="btn btn-link" href="">Alarm Systems</a>
+                    <a class="btn btn-link" href="">CCTV & Video</a>
+                    <a class="btn btn-link" href="">Smart Home</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
             </div>
-            <!--footer top end-->
-
-            <!--footer bottom start-->
-            <div class="footer-bottom footer-light py-4">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-md-7 col-lg-7">
-                            <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Future Basics Company limited Rights Reserved. Developed By <a href="https://futurebasics.co.tz/" class="text-decoration-none">Future Basics Company Limited</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <div class="footer-single-col text-start text-lg-end text-md-end">
-                                <ul class="list-unstyled list-inline footer-social-list mb-0">
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--footer bottom end-->
-        </footer>
-        <!--footer section end-->
+        </div>
     </div>
+    <!-- Footer End -->
 
-        <!--build:js-->
-        <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
-        <script src="{{ asset('js/vendors/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('js/vendors/swiper-bundle.min.js') }}"></script>
-        <script src="{{ asset('js/vendors/jquery.magnific-popup.min.js') }}"></script>
-        <script src="{{ asset('js/vendors/parallax.min.js') }}"></script>
-        <script src="{{ asset('js/vendors/aos.js') }}"></script>
-        <script src="{{ asset('js/app.js') }}"></script>
-         <!--endbuild-->
-    </body>
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    {{-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> --}}
+    <script type="text/javascript" src="{{ URL::asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
