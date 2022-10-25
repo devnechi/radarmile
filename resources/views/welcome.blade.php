@@ -8,7 +8,7 @@
             <div class="owl-carousel-item position-relative">
                 <img class="img-fluid" src="img/slider/r1.png" alt="">
                 <div class="carousel-inner">
-                    <div class="container">
+                    {{-- <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For You</h1>
@@ -17,13 +17,13 @@
                                 <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
                 <img class="img-fluid" src="img/slider/r2.png" alt="">
                 <div class="carousel-inner">
-                    <div class="container">
+                    {{-- <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All Business</h1>
@@ -32,13 +32,13 @@
                                 <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/slider/r1.png" alt="">
+                <img class="img-fluid" src="img/slider/r3.png" alt="">
                 <div class="carousel-inner">
-                    <div class="container">
+                    {{-- <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security System</h1>
@@ -47,7 +47,7 @@
                                 <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
