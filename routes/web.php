@@ -21,7 +21,7 @@ Route::get('/documentation', [App\Http\Controllers\PublicPagesController::class,
 Route::get('/about-us', [App\Http\Controllers\PublicPagesController::class, 'viewAbout'])->name('about-us');
 Route::get('/contact-us', [App\Http\Controllers\PublicPagesController::class, 'viewContactus'])->name('contact-us');
 Route::get('/services', [App\Http\Controllers\PublicPagesController::class, 'viewServiceDetails'])->name('services');
-Route::get('/projects', [App\Http\Controllers\PublicPagesController::class, 'viewProjects'])->name('projects');
+Route::get('/clients', [App\Http\Controllers\PublicPagesController::class, 'viewClients'])->name('clients');
 
 Route::get('/capabilities-details', [App\Http\Controllers\PublicPagesController::class, 'viewServiceDetails'])->name('capabilities-details');
 

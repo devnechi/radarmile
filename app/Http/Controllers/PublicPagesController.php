@@ -23,7 +23,7 @@ class PublicPagesController extends Controller
         return view('contact-us');
     }
 
-    public function viewProjects(){
-        return view('projects');
+    public function viewClients(){
+        return view('clients');
     }
 }

@@ -121,7 +121,7 @@
                 <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about-us') }}" class="nav-item nav-link">About</a>
                 <a href="{{ route('services') }}" class="nav-item nav-link">Service</a>
-                <a href="{{ route('projects') }}" class="nav-item nav-link">Clients</a>
+                <a href="{{ route('clients') }}" class="nav-item nav-link">Clients</a>
                 {{-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
