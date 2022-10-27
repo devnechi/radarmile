@@ -79,7 +79,9 @@
         <section class="video-promo-with-icon">
             <div class="container">
                 <div class="video-bg-with-icon" style="height: 680px; background: url('img/16.png')no-repeat center center / cover">
-                    <a href="img/rad-vid/radarmile-vid.mp4" class="popup-youtube"><i class="fas fa-play"></i></a>
+                    {{-- <a href="img/rad-vid/radarmile-vid.mp4" class="popup-youtube"><i class="fas fa-play"></i></a> --}}
+                    <a href="https://youtu.be/xtw1F3dS9ws" class="popup-youtube"><i class="fas fa-play"></i></a>
+
                     {{-- <video width="320" height="670" autoplay>
                         <source src="img/rad-vid/radarmile-vid.mp4" type="video/mp4">
                         <source src="img/rad-vid/radarmile-vid.mp4" type="video/ogg">
