@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/documentation', [App\Http\Controllers\PublicPagesController::class, 'viewDocPage'])->name('documentation');
-Route::get('/about-us', [App\Http\Controllers\PublicPagesController::class, 'viewAbout'])->name('about-us');
+Route::get('/explore', [App\Http\Controllers\PublicPagesController::class, 'viewAbout'])->name('explore');
 Route::get('/contact-us', [App\Http\Controllers\PublicPagesController::class, 'viewContactus'])->name('contact-us');
 Route::get('/services', [App\Http\Controllers\PublicPagesController::class, 'viewServiceDetails'])->name('services');
 Route::get('/clients', [App\Http\Controllers\PublicPagesController::class, 'viewClients'])->name('clients');

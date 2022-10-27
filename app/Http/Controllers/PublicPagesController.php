@@ -12,7 +12,7 @@ class PublicPagesController extends Controller
     }
 
     public function viewAbout(){
-        return view('about_us');
+        return view('explore');
     }
 
     public function viewServiceDetails(){

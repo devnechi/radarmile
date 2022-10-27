@@ -3,7 +3,7 @@
 @section('content')          <!--about header section start-->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5">
+    <div class="container-fluid page-header-clients py-5 mb-5">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Clients</h1>
             {{-- <nav aria-label="breadcrumb animated slideInDown">
@@ -23,7 +23,7 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Clients</h1>
+                {{-- <h1 class="display-5 mb-5">Our Clients</h1> --}}
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">

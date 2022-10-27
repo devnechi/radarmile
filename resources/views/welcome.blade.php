@@ -78,9 +78,13 @@
         <!-- app two video promo start -->
         <section class="video-promo-with-icon">
             <div class="container">
-                <div class="video-bg-with-icon" style="height: 680px; background: url('img/slider/r1.png')no-repeat center center / cover">
-                    <a href="https://www.youtube.com/watch?v=MuJQnSe1R5k" class="popup-youtube"><i class="fas fa-play"></i></a>
-
+                <div class="video-bg-with-icon" style="height: 680px; background: url('img/16.png')no-repeat center center / cover">
+                    <a href="img/rad-vid/radarmile-vid.mp4" class="popup-youtube"><i class="fas fa-play"></i></a>
+                    {{-- <video width="320" height="670" autoplay>
+                        <source src="img/rad-vid/radarmile-vid.mp4" type="video/mp4">
+                        <source src="img/rad-vid/radarmile-vid.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video> --}}
                 </div>
                 {{-- <iframe width="560" height="315" src="https://www.youtube.com/embed/MuJQnSe1R5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
             </div>
@@ -97,7 +101,7 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/3.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -251,7 +255,7 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/3.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -391,7 +395,7 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/5.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
