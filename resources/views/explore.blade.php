@@ -87,10 +87,10 @@
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
                                         <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
                                     </div>
-                                    <div class="ms-4">
+                                    {{-- <div class="ms-4">
                                         <h2 class="mb-1" data-toggle="counter-up">1234</h2>
                                         <p class="fw-medium text-primary mb-0">Happy Clients</p>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -98,10 +98,10 @@
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
                                         <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                                     </div>
-                                    <div class="ms-4">
+                                    {{-- <div class="ms-4">
                                         <h2 class="mb-1" data-toggle="counter-up">1234</h2>
                                         <p class="fw-medium text-primary mb-0">Projects Done</p>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
