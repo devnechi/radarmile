@@ -128,7 +128,7 @@
                 <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('explore') }}" class="nav-item nav-link">Explore Radarmile</a>
                 <a href="{{ route('services') }}" class="nav-item nav-link">Service</a>
-                <a href="{{ route('clients') }}" class="nav-item nav-link">Clients</a>
+                {{-- <a href="{{ route('clients') }}" class="nav-item nav-link">Clients</a> --}}
                 <a href="{{ route('contact-us') }}" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
@@ -200,11 +200,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="https://www.futurebasics.co.tz/">Future Basics Company Limited</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="https://www.radarmile.com/">Radarmile</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    Designed By <a class="border-bottom" href="https://www.futurebasics.co.tz/">Future Basics Company Limited</a>
                 </div>
             </div>
         </div>

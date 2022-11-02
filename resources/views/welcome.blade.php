@@ -29,7 +29,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-xxl py-5">
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Facts Start -->
         <!-- app two video promo start -->
         <section class="video-promo-with-icon">
@@ -101,7 +101,7 @@
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 600px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover;" alt="">
                     </div>
@@ -109,33 +109,24 @@
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-4">About Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        {{-- <div class="row g-4 mb-4 pb-3">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore Radarmile</a>
+                        <h1 class="display-5 mb-4">What is Radarmile?</h1>
+                        <p class="mb-4 pb-2"0>
+                            RADARMILE is a software that allows you to
+                                digitally track and monitor projects in real
+                                time from wherever you are.
+                            </p>
+                            <p class="mb-4 pb-2"0>
+                                RADARMILE gives you real time milestone
+                                updates and produces automated project
+                                reports, making it easier to accurately
+                                track and evaluate projects.
+                                </p>
+                                <p class="mb-4 pb-2"0>
+                                    To learn more, <a href="files/radarmile-concept-note-nov-2022.pdf" download> click here</a> to download a
+                                    free copy of the Radarmile Concept Note.
+                                    {{-- <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Full .PDF</a> --}}
+
+                                    </p>
                     </div>
                 </div>
             </div>
@@ -149,7 +140,7 @@
         <div class="container">
             <div class="text-center">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Services</h1>
+                <h1 class="display-5 mb-5">Radarmile's Features</h1>
             </div>
             <div class="row g-0 service-row">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -157,8 +148,11 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Commercial CCTV System</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <h4 class="mb-3">Cloud storage
+                            for project data</h4>
+                        <p class="mb-4">Safely store project data
+                            online and access it from
+                            anywhere.</p>
                         <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
@@ -167,8 +161,14 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Finger Print Access</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <h4 class="mb-3">Automated project reports
+                            & milestone updates</h4>
+                        <p class="mb-4">
+                            Easily produce detailed
+                            project reports and keep
+                            up with the project
+                            milestones.
+                        </p>
                         <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
@@ -177,8 +177,12 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Fire Detection And Safety</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <h4 class="mb-3">Full customisation</h4>
+                        <p class="mb-4">
+                            RADARMILE's flexibility means it
+                            can be fully customised to fit
+                            various types of projects.
+                        </p>
                         <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
@@ -187,8 +191,13 @@
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Smart Home Security</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <h4 class="mb-3">Controlled data access</h4>
+                        <p class="mb-4">
+                            Mange team members and
+                            manage which project
+                            data they are able to
+                            access.
+                        </p>
                         <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
@@ -205,8 +214,14 @@
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Why Choose Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h1 class="display-5 mb-5">Why Use Radarmile?</h1>
+                        <p class="mb-4 pb-2">
+                            By digitzing various processes within a
+                            project, RADARMILE allows projects flow in
+                            a more efficient and controlled manner.
+                            This makes it it easier to accurately track
+                            project progress and evaluate success.
+                        </p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -215,7 +230,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Trusted</p>
-                                        <h5 class="mb-0">Security</h5>
+                                        <h5 class="mb-0">Easy To Use</h5>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +241,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
+                                        <h5 class="mb-0">Increases Efficiency</h5>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +252,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Smart</p>
-                                        <h5 class="mb-0">Systems</h5>
+                                        <h5 class="mb-0">Cost Efficiency</h5>
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +263,8 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">24/7 Hours</p>
-                                        <h5 class="mb-0">Support</h5>
+                                        <h5 class="mb-0">Accurate digital data
+                                            handling</h5>
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +283,7 @@
 
 
     <!-- Projects Start -->
-    <div class="container-xxl py-5">
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
@@ -387,7 +403,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Projects End -->
 
 
@@ -403,8 +419,11 @@
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Free Quote</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h1 class="display-5 mb-5">Get In Touch</h1>
+                        <p class="mb-4 pb-2">
+                            Leave us a message and our team will get
+                            back to you as soon as possible.
+                            </p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
@@ -416,19 +435,19 @@
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                {{-- <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
                                         <option selected>Select A Service</option>
                                         <option value="1">Service 1</option>
                                         <option value="2">Service 2</option>
                                         <option value="3">Service 3</option>
                                     </select>
-                                </div>
+                                </div> --}}
                                 <div class="col-12">
                                     <textarea class="form-control border-0" placeholder="Special Note"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -441,7 +460,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    {{-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
@@ -465,7 +484,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 
 
