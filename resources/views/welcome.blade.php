@@ -96,14 +96,13 @@
         </section>
         <!-- app two video promo end -->
 
-
     <!-- About Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 600px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/3.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -125,7 +124,6 @@
                                     To learn more, <a href="files/radarmile-concept-note-nov-2022.pdf" download> click here</a> to download a
                                     free copy of the Radarmile Concept Note.
                                     {{-- <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Full .PDF</a> --}}
-
                                     </p>
                     </div>
                 </div>
@@ -162,7 +160,7 @@
                             <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                         </div>
                         <h4 class="mb-3">Automated project reports
-                            & milestone updates</h4>
+                            & updates</h4>
                         <p class="mb-4">
                             Easily produce detailed
                             project reports and keep
@@ -175,7 +173,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
                         </div>
                         <h4 class="mb-3">Full customisation</h4>
                         <p class="mb-4">
@@ -189,7 +187,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
                         </div>
                         <h4 class="mb-3">Controlled data access</h4>
                         <p class="mb-4">
@@ -226,7 +224,7 @@
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Trusted</p>
@@ -237,7 +235,7 @@
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                                        <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Quality</p>
@@ -248,7 +246,7 @@
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">Smart</p>
@@ -259,7 +257,7 @@
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                                        <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-primary mb-2">24/7 Hours</p>
@@ -273,7 +271,7 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/3.png" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -444,7 +442,7 @@
                                     </select>
                                 </div> --}}
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                    <textarea class="form-control border-0" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Send</button>

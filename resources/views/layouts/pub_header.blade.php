@@ -116,7 +116,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
         <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
             <h2 class="m-0 text-primary">
-                <img src="img/logo/blue-logo.png" style="height: 65px; width: 190px;" alt="radarmile blue logo">
+                <img src="img/logo/blue-logo.png" style="height: 69px; width: 190px;" alt="radarmile blue logo">
             </h2>
 
         </a>
@@ -127,7 +127,7 @@
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('explore') }}" class="nav-item nav-link">Explore Radarmile</a>
-                <a href="{{ route('services') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('services') }}" class="nav-item nav-link">Services</a>
                 {{-- <a href="{{ route('clients') }}" class="nav-item nav-link">Clients</a> --}}
                 <a href="{{ route('contact-us') }}" class="nav-item nav-link">Contact</a>
             </div>
@@ -168,18 +168,18 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Business Solutions</a>
-                    <a class="btn btn-link" href="">Project Solutions</a>
-                    <a class="btn btn-link" href="">Enterprise Solution</a>
-                    <a class="btn btn-link" href="">Program Solutions</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Business Solutions</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Project Solutions</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Enterprise Solution</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Program Solutions</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="{{ route('explore') }}">Explore Radarmile</a>
+                    <a class="btn btn-link" href="{{ route('contact-us') }}">Contact Us</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Our Services</a>
+                    {{-- <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a> --}}
                 </div>
                 {{-- <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Newsletter</h5>
