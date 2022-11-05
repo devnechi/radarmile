@@ -121,10 +121,13 @@
                                 track and evaluate projects.
                                 </p>
                                 <p class="mb-4 pb-2"0>
-                                    To learn more, <a href="files/radarmile-concept-note-nov-2022.pdf" download> click here</a> to download a
+                                    To learn more, click here to download a
                                     free copy of the Radarmile Concept Note.
-                                    {{-- <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Full .PDF</a> --}}
                                     </p>
+                                <a href="files/radarmile-concept-note.pdf" download class="btn btn-primary">Download Concept Note</a>
+
+                                    {{-- <a class="btn" href="files/radarmile-concept-note.pdf" download><i class="fa fa-arrow-right text-white me-3"></i>Download Concept Note</a> --}}
+
                     </div>
                 </div>
             </div>
@@ -144,7 +147,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                         </div>
                         <h4 class="mb-3">Cloud storage
                             for project data</h4>
@@ -157,7 +160,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
                         </div>
                         <h4 class="mb-3">Automated project reports
                             & updates</h4>

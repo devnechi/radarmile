@@ -83,7 +83,7 @@
                         <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
                     <small>11B Samsa Real Estate
-                        Biafra Kinondoni
+                        Biafra, Kinondoni
                         Dar es Salaam, Tanzania</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
@@ -176,8 +176,8 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="{{ route('explore') }}">Explore Radarmile</a>
-                    <a class="btn btn-link" href="{{ route('contact-us') }}">Contact Us</a>
                     <a class="btn btn-link" href="{{ route('services') }}">Our Services</a>
+                    <a class="btn btn-link" href="{{ route('contact-us') }}">Contact Us</a>
                     {{-- <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a> --}}
                 </div>
